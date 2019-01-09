@@ -110,8 +110,9 @@ header nav a:active {
 	text-decoration: none;
 }
 
-header div {
-	/* border: 1px solid red; */
+header .logo {
+    /* border: 1px solid red; */
+    background: url(https://github.com/LambdaSchool/User-Interface/blob/master/great-idea-website/img/logo.png?raw=true) center top no-repeat;
 	display: inline-block;
 	height: 60px;
 	position: absolute;
@@ -130,47 +131,17 @@ main {
 }
 
 .landing {
+    background: url(https://www.microtechsupport.co.uk/media/1193/services.jpg) center center no-repeat;
 	height: 500px;
 	/* border: 1px solid red; */
-	margin-top: 50px;
-	position: relative;
+    padding-top: 50px;
 }
 
-.landing-text {
-	/* border: 1px solid red; */
-	display: inline-block;
-	height: 100%;
-	position: absolute;
-	left: 0;
-	width: 54%;
-}
-
-.landing div h1 {
-	font-size: 70px;
-	margin-top: 90px;
+.landing h1 {
+    color: black;
+	font-size: 140px;
+	margin-top: 120px;
 	text-align: center;
-}
-
-.landing button {
-	border: 1px solid black;
-	border-radius: 0px;
-	font-size: 16px;
-	display: block;
-	margin: auto;
-	padding: 4px 20px;
-}
-
-.landing-image {
-	/* border: 1px solid red; */
-	display: inline-block;
-	height: 100%;
-	position: absolute;
-	right: 0;
-	width: 45%;
-}
-
-.landing-image img {
-	margin-top: 50px;
 }
 
 article {
@@ -194,19 +165,23 @@ article img {
 }
 
 .article-middle-section {
-	border-bottom: 1px solid black;
-	padding-bottom: 40px;
+	padding: 40px 0;
 }
 
 .article-middle-section div {
 	display: inline-block;
-	width: 33%;
+	width: 49%;
 }
 
 .article-bottom-section {
-	padding-top: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
 }
 
+.article-bottom-section div {
+	display: inline-block;
+	width: 49%;
+}
 
 footer {
 	height: 180px;
